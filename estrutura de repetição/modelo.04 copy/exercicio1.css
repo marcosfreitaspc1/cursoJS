@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(120, 129, 136);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+    text-shadow: -1px 3px 6px rgba(0, 0, 0, 0.791);
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.357);
+}
+div {
+    padding: 20px 20px;
+    
+}
+div#menu {
+    position: relative;
+    padding-bottom: 5px;
+}
+input {
+    border-radius: 5px;
+    font-size: 10pt;
+    padding: 10px 15px;
+}
+input#num {
+    font-size: 20pt;
+}
+input#b {
+    margin: 20px 265px 20px;
+    padding: 10px 10px;
+}
+select#tabsel {
+    position: relative;
+    background-color: rgb(103, 135, 159);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.761);
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.51);
+    box-shadow: inset 3px -3px 5px rgba(0, 0, 0, 0.24);
+    padding: 10px 15px;
+}
+select#tabsel::-webkit-scrollbar{
+    display: none;
+    }
+option {
+    color: white;
+    font-size: 20pt;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(83, 125, 129);
+    color: white;
+    font-family: arial;
+}
+header {
+    text-align: center;
+}
+section {
+    display: table;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    width: 550px;
+    height: 400px;
+    margin: auto;
+} 
+p {
+    margin: 40px 30px 10px;
+}
+select {
+    width: 160px;
+    height: 200px;
+    margin: 20px 40px;
+}
+option {
+    text-align: center;
+}
+input#fin {
+    margin: 10px 40px;
+    padding: 10px 54px;
+}

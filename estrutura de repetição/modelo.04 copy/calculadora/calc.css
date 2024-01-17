@@ -1,0 +1,71 @@
+body {
+    background-color: aqua;
+}
+section {
+    display: inline-table;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+input#monitor {
+    height: 70px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+    resize: none;
+}
+div#observar {
+    height: 70px;
+    background-color: rgb(214, 112, 112);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+    resize: none;
+}
+div#val1 {
+    height: 20px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+div#val2 {
+    height: 20px;
+    background-color: rgb(214, 112, 112);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+div#val3 {
+    height: 20px;
+    background-color: rgb(129, 112, 214);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+textarea::-webkit-scrollbar {
+    display: none;
+}
+p {
+    display: inline-table;
+    height: 65px;
+    width: 65px;
+    background-color: rgb(107, 155, 151);
+    border-radius: 10px;
+    text-align: center;
+    font-family: arial;
+    margin: 15px;
+}
+label {
+    font-size: 55px;
+}
+input.n {
+    display: none;
+}
+input.nu {
+    display: none;
+}
+input.op {
+    display: none;
+}

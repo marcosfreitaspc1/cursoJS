@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadorat.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <section>
+        <div id="observar"></div>
+        <div>
+            <p class="m"><label for="porcento"><input type="radio" id="porcento" name="mut" class="m" onclick="mutar()">&percnt;</label></p>
+            <p class="m"><label for="raiz"><input type="radio" id="raiz" name="mut" class="m" onclick="mutar()">&radic;</label></p>
+            <p class="m"><label for="potencia"><input type="radio" id="potencia" name="mut" class="m" onclick="mutar()">^</label></p>
+            <p class="op"><label for="dividir"><input type="radio" id="dividir" name="oper" class="op" onclick="operar()">&div;</label></p>
+        </div>
+        <div>
+            <p id="p1"><label for="n1"><input type="radio" id="n1" name="num" class="n" onclick="digitar()">1</label></p>
+            <p id="p2"><label for="n2"><input type="radio" id="n2" name="num" class="n" onclick="digitar()">2</label></p>
+            <p id="p3"><label for="n3"><input type="radio" id="n3" name="num" class="n" onclick="digitar()">3</label></p>
+            <p class="op"><label for="multiplicar"><input type="radio" id="multiplicar" name="oper" class="op" onclick="operar()">&times;</label></p>
+        </div>
+        <div>
+            <p id="p4"><label for="n4"><input type="radio" id="n4" name="num" class="n" onclick="digitar()">4</label></p>
+            <p id="p5"><label for="n5"><input type="radio" id="n5" name="num" class="n" onclick="digitar()">5</label></p>
+            <p id="p6"><label for="n6"><input type="radio" id="n6" name="num" class="n" onclick="digitar()">6</label></p>
+            <p class="op"><label for="subtrair"><input type="radio" id="subtrair" name="oper" class="op" onclick="operar()">&minus;</label></p>
+        </div>
+        <div>
+            <p id="p7"><label for="n7"><input type="radio" id="n7" name="num" class="n" onclick="digitar()">7</label></p>
+            <p id="p8"><label for="n8"><input type="radio" id="n8" name="num" class="n" onclick="digitar()">8</label></p>
+            <p id="p9"><label for="n9"><input type="radio" id="n9" name="num" class="n" onclick="digitar()">9</label></p>
+            <p class="op"><label for="somar"><input type="radio" id="somar" name="oper" class="op" onclick="operar()">&plus;</label></p>
+        </div>
+        <div>
+            <p class="nu" id="p0"><label for="n0"><input type="radio" id="n0" name="num"class="nu" onclick="digitar()">0</label></p>
+            <p class="nu"><label for="n00"><input type="radio" id="n00" name="num" class="nu" onclick="digitar()">00</label></p>
+            <p class="nu"><label for="pont"><input type="radio" id="pont" name="num" class="nu" onclick="digitar()">&sdot;</label></p>
+            <p class="calc"><label for="igual"><input type="radio" id="igual" name="oper" class="op" onclick="calcular()">&equals;</label></p>
+        </div>
+    </section>
+    <script src="calculadorat.js"></script>
+</body>
+</html>

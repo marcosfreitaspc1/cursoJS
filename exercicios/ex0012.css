@@ -1,0 +1,14 @@
+body {
+    font-family: arial;
+    background-color: rgb(168, 177, 186);
+    text-align: justify;
+}
+section {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: aqua;
+}
+section {
+    display: inline-table;
+    background-color: rgb(25, 50, 70);
+    padding: 30px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+input#monitor {
+    display: o;
+    height: 20px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+div#val1 {
+    display: o;
+    height: 20px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+div#val2 {
+    display: o;
+    height: 20px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+} 
+div#val3 {
+    display: o;
+    height: 20px;
+    background-color: rgb(112, 214, 182);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+}
+div#observar {
+    height: 70px;
+    background-color: rgb(112, 214, 134);
+    margin: 20px 10px;
+    text-align: right;
+    font-size: 20pt;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.851);
+    border: 2px solid rgb(255, 255, 255);
+}
+p {
+    display: inline-table;
+    height: 65px;
+    width: 65px;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: rgb(22, 146, 200);
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    box-shadow: inset 2px 2px 8px rgba(255, 255, 255, 0.867);
+    text-align: center;
+    font-family: arial;
+    margin: 15px;
+}
+label {
+    font-size: 55px;
+}
+input.n {
+    display: none;
+}
+input.nu {
+    display: none;
+}
+input.op {
+    display: none;
+}

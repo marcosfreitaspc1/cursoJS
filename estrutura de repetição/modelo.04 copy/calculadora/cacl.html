@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <section>
+        <div>
+            <!-- <textarea name="" id="tela" cols="23" rows="3"></textarea> -->
+        </div>
+        
+        <div id="observar"></div>
+        <input type="number" id="monitor">
+        <div id="val1"></div>
+        <div id="val2"></div>
+        <div id="val3"></div>
+        <div>
+            <input type="button" value="&equals;" onclick="calcular()">
+        </div>
+        <div>
+            <p><label for="n1"><input type="radio" id="n1" name="num" class="n" onclick="digitar()">1</label></p>
+            <p><label for="n2"><input type="radio" id="n2" name="num" class="n" onclick="digitar()">2</label></p>
+            <p><label for="n3"><input type="radio" id="n3" name="num" class="n" onclick="digitar()">3</label></p>
+            <p><label for="div"><input type="radio" id="div" name="oper" class="op" onclick="operar(), limpa()">&div;</label></p>
+        </div>
+        <div>
+            <p><label for="n4"><input type="radio" id="n4" name="num" class="n" onclick="digitar()">4</label></p>
+            <p><label for="n5"><input type="radio" id="n5" name="num" class="n" onclick="digitar()">5</label></p>
+            <p><label for="n6"><input type="radio" id="n6" name="num" class="n" onclick="digitar()">6</label></p>
+            <p><label for="mul"><input type="radio" id="mul" name="oper" class="op" onclick="operar(), limpa()">&times;</label></p>
+        </div>
+        <div>
+            <p><label for="n7"><input type="radio" id="n7" name="num" class="n" onclick="digitar()">7</label></p>
+            <p><label for="n8"><input type="radio" id="n8" name="num" class="n" onclick="digitar()">8</label></p>
+            <p><label for="n9"><input type="radio" id="n9" name="num" class="n" onclick="digitar()">9</label></p>
+            <p><label for="sub"><input type="radio" id="sub" name="oper" class="op" onclick="operar(), limpa()">&minus;</label></p>
+        </div>
+        <div>
+            <p><label for="n0"><input type="radio" id="n0" name="num"class="nu" onclick="digitar()">0</label></p>
+            <p><label for="n00"><input type="radio" id="n00" name="num" class="nu" onclick="digitar()">00</label></p>
+            <p><label for="nn"><input type="radio" id="nn" name="num" class="nu" onclick="digitar()">.</label></p>
+            <p><label for="som"><input type="radio" id="som" name="oper" class="op" onclick="operar(), limpa()">&plus;</label></p>
+        </div>
+    </section>
+    <script src="calc.js"></script>
+</body>
+</html>

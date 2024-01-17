@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(120, 129, 136);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.357);
+}
+div#foto {
+    text-align: center;
+}
+input#txtdia {
+    width: 30px;
+    margin: 0px;
+
+}
+div#res {
+    text-align: justify;
+    padding: 10px;
+    
+}
+input#inicio {
+    padding: auto;
+    width: 350px;
+    margin-left: 8px;
+}
+input#fim {
+    padding: auto;
+    width: 350px;
+    margin-left: 20px;
+} input#passo {
+    padding: auto;
+    width: 350px;
+    margin-left: 0px;
+}
+input {
+    margin-left: 66px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
